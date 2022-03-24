@@ -19,7 +19,7 @@
   "homepage": "https://github.com/thure/fluent-blocks-sample#readme",
   "dependencies": {
     "@fluent-blocks/basic-icons": "^9.0.0-alpha.4",
-    "@fluent-blocks/react": "^9.0.0-alpha.5",
+    "@fluent-blocks/react": "^9.0.0-alpha.7",
     "@fluentui/react-components": "^9.0.0-rc.6",
     "chart.js": "^2.9.4",
     "react": "^17.0.2",

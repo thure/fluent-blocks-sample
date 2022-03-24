@@ -5,7 +5,7 @@ specifiers:
   '@babel/preset-env': ^7.16.11
   '@babel/preset-react': ^7.16.7
   '@fluent-blocks/basic-icons': ^9.0.0-alpha.4
-  '@fluent-blocks/react': ^9.0.0-alpha.5
+  '@fluent-blocks/react': ^9.0.0-alpha.7
   '@fluentui/react-components': ^9.0.0-rc.6
   '@types/react': ^17.0.42
   '@types/react-dom': ^17.0.14
@@ -18,7 +18,7 @@ specifiers:
 
 dependencies:
   '@fluent-blocks/basic-icons': 9.0.0-alpha.4
-  '@fluent-blocks/react': 9.0.0-alpha.5_1037f5afda7f25d8a7f3bc8211f3833b
+  '@fluent-blocks/react': 9.0.0-alpha.7_1037f5afda7f25d8a7f3bc8211f3833b
   '@fluentui/react-components': 9.0.0-rc.6_b6f805b52fabfeb2568a89703775eb34
   chart.js: 2.9.4
   react: 17.0.2
@@ -1246,8 +1246,8 @@ packages:
     requiresBuild: true
     dev: false
 
-  /@fluent-blocks/react/9.0.0-alpha.5_1037f5afda7f25d8a7f3bc8211f3833b:
-    resolution: {integrity: sha512-0p2//PmOrgpyaW1brwUXXwvmYxfxtfd9NbUq/OFtoBOe6RUax8TFsKJcNtDetUotzgti1l//M8yunuAIyGpP/Q==}
+  /@fluent-blocks/react/9.0.0-alpha.7_1037f5afda7f25d8a7f3bc8211f3833b:
+    resolution: {integrity: sha512-mfn8kJ5O67WAySw4VIWj4Uslds6xHfzCDwFcbJ6WmLcWXw2bLqGSBiqW7Kh/2cZtAAWsOolh8Z29JwtzpiHEHg==}
     engines: {node: '>=12.0.0 <17.0.0', pnpm: ^6}
     peerDependencies:
       '@fluentui/react-components': latest

@@ -1,9 +1,10 @@
 import {View, Escape} from "@fluent-blocks/react";
-import basicIcons from '@fluent-blocks/basic-icons/basic-icons.svg';
 import {render} from 'react-dom'
+// @ts-ignore
+import basicIcons from '@fluent-blocks/basic-icons/basic-icons.svg';
 
 render(
-  <View accentScheme='teams' basicSpriteUrl={basicIcons} main={{
+  <View accentScheme='teams' iconSpriteUrl={basicIcons} main={{
     title: 'Hello, world.',
     blocks: [
       {

@@ -37,3 +37,4 @@ yarn-error.log*
 .parcel-cache
 dist
 .eslintcache
+public/basic-icons.svg

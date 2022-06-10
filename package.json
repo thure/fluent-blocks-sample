@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
+    "postinstall": "cd public && ln -s ../node_modules/@fluent-blocks/basic-icons/basic-icons.svg ./",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/thure/fluent-blocks-sample#readme",
   "dependencies": {
+    "@fluent-blocks/basic-icons": "^9.1.2",
     "@fluent-blocks/react": "next",
     "@fluentui/react-components": "latest",
     "chart.js": "^2.9.4",
@@ -49,10 +51,5 @@
     "lint-staged": "latest",
     "prettier": "latest",
     "typescript": ">=4.4.0 <5.0.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "@fluent-blocks/react": "file:../fb-built"
-    }
   }
 }
